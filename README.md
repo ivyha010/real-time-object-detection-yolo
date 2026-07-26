@@ -1,4 +1,4 @@
-# Real-Time Object Detection with YOLO11 (Python + C++)
+# Real-Time Object Detection with YOLO11 (Python and C++)
 
 This project demonstrates **real-time object detection** using [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics) and a webcam.  
 Objects can be detected using either:
