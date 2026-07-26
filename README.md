@@ -32,29 +32,34 @@ real-time-object-detection-yolo/
 │   └── yolo11n.onnx         # YOLO11 ONNX weights (for C++)
 │
 └── README.md                # Project overview
+```
 
 ### Python Version
 
-### Install dependencies
+#### Install dependencies
 ```bash
 pip install -r python/requirements.txt
-
+```
 #### Run real-time detection:
+```
 python python/main.py
-
+```
 - Press q to quit.
 - By default, it uses the pretrained YOLO11 model (yolo-Weights/yolo11n.pt).
 - To use your own trained model, update the path in main.py.
 
 #### Train a custom model
-Inside python/custom_model/: python custom_model.py. This will train YOLO11 on a custom dataset (e.g., COCO8) 
+Inside python/custom_model/: ``` python custom_model.py ``` This will train YOLO11 on a custom dataset (e.g., COCO8) 
 
 ### C++ Version
+
 #### Build: 
+```
 cd cpp
 mkdir build && cd build
 cmake ..
 make
+```
 
 #### Run: 
 ./yolo_cpp
