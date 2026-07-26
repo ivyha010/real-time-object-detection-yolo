@@ -1,0 +1,1 @@
+Run the custom_model.py to train the YOLO11 model on a custom dataset (for example, the COCO8 dataset)
