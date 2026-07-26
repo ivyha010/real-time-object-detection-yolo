@@ -1,7 +1,6 @@
 # Real-Time Object Detection with YOLO11 (Python and C++)
 
-This project demonstrates **real-time object detection** using [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics) and a webcam.  
-Objects can be detected using either:
+This project demonstrates **real-time object detection** using [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics) and a webcam. Objects can be detected using either:
 - The **pretrained YOLO11 model** (trained on the COCO dataset), or
 - A **custom-trained YOLO11 model** (e.g., trained on the COCO8 dataset).
 
@@ -10,13 +9,13 @@ Objects can be detected using either:
 - Show how to train YOLO11 on a custom dataset and run inference.
 - Demonstrate ONNX portability across languages.
 
-## Repository Structure
+### Repository Structure
 The repository contains **two implementations**:
 - `python/` - Python code using Ultralytics YOLO and OpenCV (with a `custom_model/` folder for training).
 - `cpp/` - C++ code using OpenCV’s DNN module with YOLO ONNX export.
 
-## Project Layout
-
+#### Project Layout
+```
 real-time-object-detection-yolo/
 ├── python/
 │   ├── main.py              # Real-time detection with pretrained/custom YOLO11
